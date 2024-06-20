@@ -1,7 +1,5 @@
-#!/c/php-8.2.5-Win32-vs16-x64/php
-
 <?php 
-
+namespace App;
 class GuessGame
 {
    private $maxNumber,$minNumber,$attempt=0,$rightNumber;
@@ -34,16 +32,6 @@ class GuessGame
     }
 }
 
-$minNumber=readline("Please enter minimum number of guessing game you wish to \n");
 
-$maxNumber=readline("Please enter maximum number of guessing game you wish to \n");
-
-$guessGame = new GuessGame($maxNumber,$minNumber);
-$bool=true;
-while($bool)
-{
-    $userNumber = readline("Please enter your guessing number \n");
-   $bool=$guessGame->guessNumber($userNumber);
-}
  
 ?>

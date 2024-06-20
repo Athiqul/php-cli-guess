@@ -1,0 +1,17 @@
+{
+    "name": "athiq/guess_game",
+    "description": "PHP CLI Guessing game",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Athiqulhasan",
+            "email": "athiqulhasan.4@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
